@@ -80,6 +80,17 @@ femalesdata=filter(FinalData,sex=="F")
 $H_0$: The treatment has no effect on females.  
 $H_A$: The treatment has a significant effect on females.   
 
+### Graphical Description  
+```{r}
+barchartGC(~infected + treatment,data=femalesdata)
+barchartGC(~infected + treatment,data=femalesdata, type="percent")
+
+```
+
+Based on the graph above, among the females who contracted COVID91 about 44% received the placebo compared to 56% received the COVID91 treatment. From this graph it looks like the treatment is not very effective for females.  
+
+
+
 ## LGBTQ
 
 
