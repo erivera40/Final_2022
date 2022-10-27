@@ -89,6 +89,12 @@ barchartGC(~infected + treatment,data=femalesdata, type="percent")
 
 Based on the graph above, among the females who contracted COVID91 about 44% received the placebo compared to 56% received the COVID91 treatment. Among females who received either the placebo or treatment, but did not contract COVID91 were very similar at about 50%. From this graph it looks like the treatment is not very effective for females.  
 
+### Numerical Description
+```{r}
+table1 <- xtabs(~infected + treatment, data=femalesdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
 
 ## LGBTQ
