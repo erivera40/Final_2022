@@ -137,7 +137,7 @@ table1 <- xtabs(~infected + treatment, data=lgbtqdata)
 rowPerc(table1)
 colPerc(table1)
 ```
-According to the numerical data, among the LGBTQ community that contracted COVID91 55.56% received the placebo, and 440.44% of the LGBTQ community received the treatment. The data demonstrates the treatment is not effective for the LGBTQ community.   
+According to the numerical data, among the LGBTQ community that contracted COVID91 55.56% received the placebo, and 44.44% of the LGBTQ community received the treatment. The data demonstrates the treatment is not effective for the LGBTQ community.   
 
 ### Inferential Results  
 ```{r}
@@ -151,6 +151,9 @@ The Fisher's Test has a p-value of 0.003736 which is less than 0.05 meaning we r
 
 We conclude that the treatment does have an effect on the LGBTQ community. Individuals in the LGBTQ community who received the placebo are 1.25 times more likely to contract Covid91 than individuals in the LGBTQ community who received the treatment.
 
+### Discussion and Conclusion    
+
+Based on the data above, among the individuals of the LGBTQ community who contracted COVID91 55.56% received the placebo and 44.44% received the treatment. According to the data, among the LGBTQ community who received the placebo, the odds are that they are 1.25 times more likely to contract COVID91 than individuals in the LGBTQ community who received the treatment.    
 
 ## Druggies
 
