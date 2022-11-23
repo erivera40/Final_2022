@@ -110,9 +110,9 @@ The Fisher's Test has a p-value of 0.004887 which is less than 0.05 meaning we r
 
 We conclude that the treatment does have an effect on females.Females who received the placebo are 0.74 times more likely to contract Covid91 than females who received the treatment.
 
-### Discussion and Conclusion  
+### Discussion and Conclusion    
 
-
+Based on the data above, among the females who contracted COVID91 42.82% received the placebo and 57.18% received the treatment. According to the data, among the females who received the placebo, the odds are that they are 0.74 times more likely to contract COVID91 than females who received the treatment.  
 
 
 ## LGBTQ
