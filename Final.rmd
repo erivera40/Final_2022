@@ -123,6 +123,16 @@ lgbtqdata=filter(FinalData,LGBTQ==LGBTQ)
 $H_0$: The treatment has no effect on LGBTQ community.  
 $H_A$: The treatment has a significant effect on LGBTQ community.  
 
+### Graphical Description  
+```{r}
+barchartGC(~infected + treatment,data=lgbtqdata)
+barchartGC(~infected + treatment,data=lgbtqdata, type="percent")
+
+```
+  
+Based on the graph above, among the females who contracted COVID91 about 44% received the placebo compared to 56% received the COVID91 treatment. Among the LGBTQ community who received either the placebo or treatment, but did not contract COVID91 were very similar at about 50%. From this graph it looks like the treatment is not very effective for the LGBTQ community.
+
+
 ## Druggies
 
 
