@@ -132,6 +132,12 @@ barchartGC(~infected + treatment,data=lgbtqdata, type="percent")
   
 Based on the graph above, among the females who contracted COVID91 about 44% received the placebo compared to 56% received the COVID91 treatment. Among the LGBTQ community who received either the placebo or treatment, but did not contract COVID91 were very similar at about 50%. From this graph it looks like the treatment is not very effective for the LGBTQ community.
 
+```{r}
+table1 <- xtabs(~infected + treatment, data=lgbtqdata)
+rowPerc(table1)
+colPerc(table1)
+```
+According to the numerical data, among the LGBTQ community that contracted COVID91 55.56% received the placebo, and 440.44% of the LGBTQ community received the treatment. The data demonstrates the treatment is not effective for the LGBTQ community. 
 
 ## Druggies
 
