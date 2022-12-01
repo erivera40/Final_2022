@@ -87,7 +87,7 @@ barchartGC(~infected + treatment,data=femalesdata, type="percent")
 
 ```
 
-Based on the graph above, among the females who contracted COVID91 about 44% received the placebo compared to 56% received the COVID91 treatment. Among females who received either the placebo or treatment, but did not contract COVID91 were very similar at about 50%. From this graph it looks like the treatment is not very effective for females.  
+Based on the graph above, among the females who contracted Covid91 about 15% more of them received the Covid91 treatment as received the placebo. The graph suggest that the treatment is not effective for females.  
 
 ### Numerical Description
 ```{r}
@@ -104,15 +104,14 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-Chi Squared test has a p-value of 0.005747 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on females.  
+Chi Squared test has a p-value of 0.005747 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on females making them more susceptible to contracting Covid91. 
+The Fisher's Test has a p-value of 0.004887 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on females.
 
-The Fisher's Test has a p-value of 0.004887 which is less than 0.05 meaning we reject the null hypothesis.  
-
-We conclude that the treatment does have an effect on females.Females who received the placebo are 0.74 times more likely to contract Covid91 than females who received the treatment.
+Females who received the placebo are 0.74 as likely to contract Covid91 than females who received the treatment.  
 
 ### Discussion and Conclusion    
 
-Based on the data above, among the females who contracted COVID91 42.82% received the placebo and 57.18% received the treatment. According to the data, among the females who received the placebo, the odds are that they are 0.74 times more likely to contract COVID91 than females who received the treatment.  
+Based on the data above, among the females who contracted Covid91 42.82% received the placebo and 57.18% received the treatment. According to the data, among the females who received the placebo, the odds are that they are 0.74 times as likely to contract Covid91 than females who received the treatment, meaning yes the treatment has a negative effect therefore we reject the null hypothesis.  
 
 
 ## LGBTQ
