@@ -147,15 +147,16 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-Chi Squared test has a p-value of 0.004136 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on the LGBTQ community.  
 
-The Fisher's Test has a p-value of 0.003736 which is less than 0.05 meaning we reject the null hypothesis.  
+Chi Squared test has a p-value of 0.0000001104 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on the LGBTQ community.
+The Fisher's Test has a p-value of 0.00000001244 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on the LGBTQ community.  
+Those in the LGBTQ community who received the placebo are 0.16 times as likely to contract Covid91 than those in the LGBTQ community who received the treatment, meaning the treatment has a negative effect of the LGBTQ community.  
 
-We conclude that the treatment does have an effect on the LGBTQ community. Individuals in the LGBTQ community who received the placebo are 1.25 times more likely to contract Covid91 than individuals in the LGBTQ community who received the treatment.
 
 ### Discussion and Conclusion    
 
-Based on the data above, among the individuals of the LGBTQ community who contracted COVID91 55.56% received the placebo and 44.44% received the treatment. According to the data, among the LGBTQ community who received the placebo, the odds are that they are 1.25 times more likely to contract COVID91 than individuals in the LGBTQ community who received the treatment.      
+Based on the data above, among the LGBTQ community those who contracted Covid91 13.33% received the placebo and 86.67% received the treatment. According to the data, among those in the LGBTQ community those who received the placebo, the odds are that they are 0.16 times more likely to contract Covid91 than those in the LGBTQ community who received the treatment. Therefore we reject the null hypothesis since the treatment has a significant negative effect on the LGBTQ community since it makes them more susceptible to contracting Covid 91.  
+
 
 ## Druggies
 ```{r}
