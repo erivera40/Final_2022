@@ -184,6 +184,15 @@ According to the numerical data, among the drug users that contracted Covid91 16
 
 ### Inferential Results  
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```  
+
+Chi Squared test has a p-value of 0.000001419 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on drug users.
+The Fisher's Test has a p-value of 0.0000003119 which is less than 0.05 meaning we reject the null hypothesis. We conclude that the treatment does have an effect on drug users.  
+Drug users who received the placebo are 0.21 times as likely to contract Covid91 than the drug users who received the treatment, meaning the treatment has a negative effect on drug users.  
 
 
 
