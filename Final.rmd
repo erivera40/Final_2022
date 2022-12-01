@@ -199,10 +199,8 @@ Drug users who received the placebo are 0.21 times as likely to contract Covid91
 Based on the data above, among the drug users who contracted Covid91 16.67% of drug users received the placebo and 83.33% of drug users received the treatment. According to the data, among the drug users who received the placebo, the odds are that they are 0.21 times more likely to contract Covid91 than the drug users who received the treatment.Therefore we reject the null hypothesis since the treatment has a significant negative effect on drug users since it makes them more susceptible to contracting Covid 91.  
 
 
+# Overall Results and Conclusions  
+
+Based on the over all data of males, females, LGBTQ community, and drug users we rejected the null hypothesis since the Covid91 treatment had an effect on all of them. The Data suggested that the Covid 91 treatment was only successful for males. For Females, LGBTQ community, and drug users it had a negative effect on them since it made them more susceptible to contracting Covid 91.  
 
 
-
-
-
-
-# Overall Results and Conclusions
