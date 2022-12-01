@@ -195,6 +195,11 @@ The Fisher's Test has a p-value of 0.0000003119 which is less than 0.05 meaning 
 Drug users who received the placebo are 0.21 times as likely to contract Covid91 than the drug users who received the treatment, meaning the treatment has a negative effect on drug users.  
 
 
+### Discussion and Conclusion  
+Based on the data above, among the drug users who contracted Covid91 16.67% of drug users received the placebo and 83.33% of drug users received the treatment. According to the data, among the drug users who received the placebo, the odds are that they are 0.21 times more likely to contract Covid91 than the drug users who received the treatment.Therefore we reject the null hypothesis since the treatment has a significant negative effect on drug users since it makes them more susceptible to contracting Covid 91.  
+
+
+
 
 
 
