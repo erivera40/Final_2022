@@ -1,5 +1,5 @@
 ---
-title: "Covid91 vaccine study FinalFall2022"
+title: "Covid91 Vaccine Study Final Fall2022"
 author: "Elizabeth Rivera"
 output: 
   html_document:
