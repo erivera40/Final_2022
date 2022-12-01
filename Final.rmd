@@ -156,6 +156,39 @@ We conclude that the treatment does have an effect on the LGBTQ community. Indiv
 Based on the data above, among the individuals of the LGBTQ community who contracted COVID91 55.56% received the placebo and 44.44% received the treatment. According to the data, among the LGBTQ community who received the placebo, the odds are that they are 1.25 times more likely to contract COVID91 than individuals in the LGBTQ community who received the treatment.      
 
 ## Druggies
+```{r}
+druggiesdata=filter(FinalData,DrugUser=="yes")
+```
+
+$H_0$: The treatment has no effect on drug users   
+$H_A$: The treatment has a significant effect on drug users.  
+
+##Graphical Description  
+```{r}
+barchartGC(~infected + treatment,data=druggiesdata)
+barchartGC(~infected + treatment,data=druggiesdata, type="percent")
+
+```  
+
+Based on the graph above, among the drug users who contracted Covid91 about 60% more of them received the Covid91 treatment as received the placebo. The graph suggest that the treatment is not effective for drug users.  
+
+### Numerical Description  
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=druggiesdata)
+rowPerc(table1)
+colPerc(table1)
+```  
+
+According to the numerical data, among the drug users that contracted Covid91 16.67% of them received the placebo, and 83.33% of them received the  treatment. The data demonstrates that the treatment is not effective for drug users.   
+
+### Inferential Results  
+
+
+
+
+
+
 
 
 # Overall Results and Conclusions
