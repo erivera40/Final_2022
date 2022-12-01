@@ -116,8 +116,9 @@ Based on the data above, among the females who contracted COVID91 42.82% receive
 
 
 ## LGBTQ
+
 ```{r}
-lgbtqdata=filter(FinalData,LGBTQ==LGBTQ)
+lgbtqdata=filter(FinalData,LGBTQ=="gay")
 ```
 
 $H_0$: The treatment has no effect on LGBTQ community.  
@@ -130,14 +131,15 @@ barchartGC(~infected + treatment,data=lgbtqdata, type="percent")
 
 ```
   
-Based on the graph above, among the females who contracted COVID91 about 44% received the placebo compared to 56% received the COVID91 treatment. Among the LGBTQ community who received either the placebo or treatment, but did not contract COVID91 were very similar at about 50%. From this graph it looks like the treatment is not very effective for the LGBTQ community.
+Based on the graph above, among the LGBTQ community those who contracted Covid91 about more than 80% of them received the Covid91 treatment as received the placebo. The graph suggest that the treatment not effective for the LGBTQ community.  
 
 ```{r}
 table1 <- xtabs(~infected + treatment, data=lgbtqdata)
 rowPerc(table1)
 colPerc(table1)
 ```
-According to the numerical data, among the LGBTQ community that contracted COVID91 55.56% received the placebo, and 44.44% of the LGBTQ community received the treatment. The data demonstrates the treatment is not effective for the LGBTQ community.   
+According to the numerical data, among the LGBTQ community those that contracted Covid91 13.33% of them received the placebo, and 86.67% of them received the  treatment. The data demonstrates the treatment is not effective for the LGBTQ community.  
+
 
 ### Inferential Results  
 ```{r}
